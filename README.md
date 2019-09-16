@@ -21,7 +21,7 @@ A new method, ChiMIC, to calculate the MIC values
     
     #[MIC,bestc,mycertain,certain_seg,mutual_I_1,mutual_I_2]=MIC_OIC_chi_1_1(data,sample_num^0.55,5,sample_num);
     
-    # while Y is numerical data discrete data
+    # while Y is discrete data
     
     [MIC,~]=MIC_OIC_chi_1_1_class(data,0.55,5)
     
