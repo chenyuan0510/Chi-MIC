@@ -4,12 +4,10 @@
 ## 1） MATLAB is the tool of Chi-MIC;    
 ## 2)  Make sure that c++ has installed in your computer for compilation;   
 ## 3)  Running program “make.m” to compile the equipartitionYaxis2.c, getsuper2var.c and getmutualI2var_fix4.c to mex files;
-** > make
-4)  num=randperm(size(data,1)); 
-
-    data=data(num',:);# scramble the samples
-    
-    the first column of data is Y (dependent variable), the rest of the columns (X) independent variable;
+> make  
+> num=randperm(size(data,1));   
+> data=data(num',:);# scramble the samples  
+the first column of data is Y (dependent variable), the rest of the columns (X) independent variable;
     
     # while Y is numerical data
     
