@@ -7,17 +7,13 @@
 > make  
 > num=randperm(size(data,1));   
 > data=data(num',:);# scramble the samples  
-the first column of data is Y (dependent variable), the rest of the columns (X) independent variable;
+
+    The first column of data is Y (dependent variable), the rest of the columns (X) independent variable;
     
-    # while Y is numerical data
+## while Y is numerical data
+    sample_num=size(data,1); 
+    [MIC,bestc,mycertain,certain_seg,mutual_I_1,mutual_I_2]=MIC_OIC_chi_1_1(data,sample_num^0.55,5,sample_num);
     
-    [MIC,bestc,mycertain,certain_seg,mutual_I_1,mutual_I_2]=MIC_OIC_chi_1_1(data,B,c,sample_num);
-    
-    # sample_num=size(data,1);
-    
-    #[MIC,bestc,mycertain,certain_seg,mutual_I_1,mutual_I_2]=MIC_OIC_chi_1_1(data,sample_num^0.55,5,sample_num);
-    
-    # while Y is discrete data
-    
+## while Y is discrete data
     [MIC,~]=MIC_OIC_chi_1_1_class(data,0.55,5)
     
