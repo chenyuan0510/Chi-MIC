@@ -17,3 +17,6 @@
 ## while Y is discrete data
     [MIC,~]=MIC_OIC_chi_1_1_class(data,0.55,5)
     
+```
+Contact me：chenyuan0510@126.com
+```
