@@ -1,8 +1,8 @@
 # Chi-MIC
-# A new method, ChiMIC, to calculate the MIC values
+A new method, ChiMIC, to calculate the MIC values
 
 ## 1） MATLAB is the tool of Chi-MIC;    
-## 2)  Make sure that c++ has installed in your computer for compilation;   
+## 2)  Make sure that c++ has installed in your computer for compilation;  In the matlab runtime environment, use the ```mex -setup``` command to set: <use of'Microsoft Visual C++' for C++ language compilation>
 ## 3)  Running program “make.m” to compile the equipartitionYaxis2.c, getsuper2var.c and getmutualI2var_fix4.c to mex files;
 > The first column of data is Y (dependent variable), the rest of the columns (X) independent variable;
     
