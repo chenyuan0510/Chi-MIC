@@ -1,5 +1,6 @@
-# Chi-MIC
+# ChiMIC
 A new method, ChiMIC, to calculate the MIC values
+Source code of the ChiMIC
 
 ## 1） MATLAB is the tool of Chi-MIC;    
 ## 2)  Make sure that c++ has installed in your computer for compilation;  In the matlab runtime environment, use the ```mex -setup``` command to set: <use of'Microsoft Visual C++' for C++ language compilation>
