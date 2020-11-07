@@ -17,6 +17,7 @@ A new method, ChiMIC, to calculate the MIC values
 ## while Y is discrete data
     [MIC,~]=MIC_OIC_chi_1_1_class(data,0.55,5)
     
-
+Source: 
+Chen Yuan, Zeng Ying, Luo Feng*, Yuan Zheming*. [A New Algorithm to Optimize Maximal Information Coefficient.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157567) PLoS ONE, 2016 11(6): e0157567
 ## Contact me：chenyuan0510@126.com
 
